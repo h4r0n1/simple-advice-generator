@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&family=Montserrat+Alternates:ital,wght@0,400;1,100&family=Montserrat:wght@300;400;500;600;700;800;900&family=Open+Sans:wght@400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+}
+
+body {
+  background-color: hsl(218, 23%, 16%);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Manrope", sans-serif;
+}
+
+.advice__card {
+  background-color: hsl(217, 19%, 24%);
+  max-width: 500px;
+  height: 300px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+  position: relative;
+}
+
+#advice__card__id {
+  color: hsl(150, 100%, 66%);
+  text-transform: uppercase;
+}
+
+#advice__card__text {
+  color: hsl(193, 38%, 86%);
+  font-size: 28px;
+  margin: 20px 50px;
+  text-align: center;
+  font-weight: 800;
+}
+
+#advice__card__divider {
+  position: absolute;
+  bottom: 50px;
+}
+
+#advice__card__divider svg {
+  width: inherit;
+}
+
+#advice__card__icon {
+  background-color: hsl(150, 100%, 66%);
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: -30px;
+}
