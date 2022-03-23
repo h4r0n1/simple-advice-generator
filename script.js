@@ -14,11 +14,3 @@ function getAdvices() {
 }
 
 getAdvices();
-// function renderAdvices() {
-//   let advices = getAdvices();
-
-//   // advices.forEach(advice => {
-
-//   // });
-
-// }
